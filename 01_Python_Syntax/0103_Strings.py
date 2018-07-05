@@ -16,7 +16,7 @@ So if you wanted "Y", you could just type
 "PYTHON"[1] (always start counting from 0!)
 """
 fifth_letter = "MONTY"[4]
-print(fifth_letter)
+print(fifth_letter)  # Y
 
 # String methods
 parrot = "Norwegian Blue"

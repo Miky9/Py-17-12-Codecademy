@@ -2,14 +2,14 @@ answer2 = "Left"
 if answer2 == "Left":
     print("This is %s" % answer2)
 else:
-    print("Right")
+    print("This is %s" % "Right")
 print()
 
 
-def greater_less_equal_5(answer):
-    if answer > 5:
+def greater_less_equal_5(number):
+    if number > 5:
         return 1
-    elif answer < 5:
+    elif number < 5:
         return -1
     else:
         return 0
